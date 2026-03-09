@@ -7,7 +7,7 @@
         <mxCell id="t1" value="PayDo Cross-Rail — Visão Geral (MVP B2B2C)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="20" y="20" width="700" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="n1" value="Corredor inicial: Brasil ↔ Paraguai (bidirecional) | XRPL backend-only (testnet/devnet) para hash de comprovante + trilha auditável" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="n1" value="Corredor inicial: Brasil ↔ Paraguai (bidirecional) | Pagamentos instantaneos e seguros com eficiencia e simplicidade | XRPL backend-only (testnet/devnet) para hash de comprovante + trilha auditavel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="20" y="60" width="980" height="50" as="geometry" />
         </mxCell>
         <mxCell id="a1" value="Parceiro&lt;div&gt;(Portal/API B2B2C)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -75,15 +75,15 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="e9a60c20-23bc-41c3-9184-c1a93cf54d36" name="02 - Jornada Boleto/Conta">
+  <diagram id="e9a60c20-23bc-41c3-9184-c1a93cf54d36" name="02 - Jornada Tributos/Concessionarias">
     <mxGraphModel dx="1229" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="t2" value="Jornada 1 — Boleto / Conta Concessionária (BR↔PY)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=20;" parent="1" vertex="1">
+        <mxCell id="t2" value="Jornada 1 — Tributos / Contas Concessionarias (BR↔PY)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="20" y="20" width="760" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="n2" value="Fluxo B2B2C: parceiro inicia, PayDo orquestra, trilho executa, comprovante é emitido e hash é ancorado na XRPL." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="n2" value="Fluxo B2B2C: parceiro inicia, PayDo orquestra, trilho executa com confirmacao rapida e segura, comprovante e emitido e hash e ancorado na XRPL." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="20" y="60" width="980" height="50" as="geometry" />
         </mxCell>
         <mxCell id="b1" value="Parceiro cria&lt;div&gt;solicitação&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -166,18 +166,18 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="7e6f37b6-92fd-4317-882f-07ea5ed0d0f3" name="03 - Jornada Fornecedor">
+  <diagram id="7e6f37b6-92fd-4317-882f-07ea5ed0d0f3" name="03 - Jornada Convenios de Arrecadacao">
     <mxGraphModel dx="1229" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="t3" value="Jornada 2 — Pagamento a Fornecedor (caso estruturado)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=20;" parent="1" vertex="1">
+        <mxCell id="t3" value="Jornada 2 — Convenios de Arrecadacao (caso estruturado)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="20" y="20" width="760" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n3" value="MVP foca em pagamentos de convenios de arrecadacao com referência estruturada (codigo_arrecadacao/ref) para facilitar conciliação e prova." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="20" y="60" width="980" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="f1" value="Parceiro envia pedido\n(invoice/ref)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="f1" value="Parceiro envia solicitacao\n(codigo_arrecadacao/ref)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="40" y="180" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="f2" value="Validação de referência\n+ valor + corredor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
